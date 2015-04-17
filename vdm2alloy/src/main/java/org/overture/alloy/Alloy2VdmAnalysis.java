@@ -1942,7 +1942,8 @@ public class Alloy2VdmAnalysis
 
 		p.merge(node.getLeft().apply(this, question));
 		p.exp += ',';
-		p.merge(getBind(node.getRight(), question));
+		//p.merge(getBind(node.getRight(), question));
+		p.merge(node.getRight().apply(this, question));
 		p.exp += ']';
 		return p;
 	};
@@ -1994,5 +1995,17 @@ public class Alloy2VdmAnalysis
 
 	public AlloyPart caseAIntLiteralExp (AIntLiteralExp node, Context question) throws AnalysisException {
 		return new AlloyPart(node.getValue().toString());
+	}
+
+	public AlloyPart caseAIfExp (AIfExp node, Context question) throws AnalysisException {
+		AlloyPart p = new AlloyPart();
+
+		p.merge(node.getTest().apply(this,question));
+		p.exp += "=>";
+		p.merge(node.getThen().apply(this, question));
+		p.exp += " else ";
+		p.merge(node.getElse().apply(this, question));
+
+		return p;
 	}
 }
