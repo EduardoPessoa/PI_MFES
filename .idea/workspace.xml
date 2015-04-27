@@ -54,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/vdm2alloy/src/test/resources/unit/typerecord2.vdmsl.result">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="269" selection-start-line="0" selection-start-column="269" selection-end-line="0" selection-end-column="269" />
+              <caret line="0" column="303" selection-start-line="0" selection-start-column="303" selection-end-line="0" selection-end-column="303" />
               <folding />
             </state>
           </provider>
@@ -648,7 +648,13 @@
       <option name="project" value="LOCAL" />
       <updated>1430175797518</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="start slicing recordtype">
+      <created>1430175808211</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1430175808211</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -721,10 +727,10 @@
     <MESSAGE value="first not-translated methods" />
     <MESSAGE value="Begin to translate conditionals (if-then-else)" />
     <MESSAGE value="Added 3 more unit tests" />
-    <MESSAGE value="start slicing recordtype" />
     <MESSAGE value="recordtype unit test" />
     <MESSAGE value="start slicing recordtype2" />
-    <option name="LAST_COMMIT_MESSAGE" value="start slicing recordtype2" />
+    <MESSAGE value="start slicing recordtype" />
+    <option name="LAST_COMMIT_MESSAGE" value="start slicing recordtype" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1078,7 +1084,7 @@
     <entry file="file://$PROJECT_DIR$/vdm2alloy/src/test/resources/unit/typerecord2.vdmsl.result">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="269" selection-start-line="0" selection-start-column="269" selection-end-line="0" selection-end-column="269" />
+          <caret line="0" column="303" selection-start-line="0" selection-start-column="303" selection-end-line="0" selection-end-column="303" />
           <folding />
         </state>
       </provider>
